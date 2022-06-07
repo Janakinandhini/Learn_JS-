@@ -6,7 +6,7 @@ const openModel = function () {
   overlay.classList.remove('hidden');
   modal.classList.remove('hidden');
 };
-for (let i = 0; i < showModelBtns.length; i++) {
+for (let i = 1; i < showModelBtns.length; i++) {
   showModelBtns[i].addEventListener('click', openModel);
 }
 const closeModal = function () {
